@@ -1,0 +1,135 @@
+
+.box{
+	position:relative;
+	width: 100%;
+	height: 100vh;
+
+}
+.main{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	text-align: center;
+	width: 60%;
+	height: 20%;
+	background: black; 
+}
+
+#stripe{
+	background: white;
+	color: black;
+	height: 30px;
+	text-align: center;
+	margin-top: -20px;
+}
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: slateblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+button:hover {
+	color: white;
+	background-color: plum;
+}
+h1{
+
+	text-align: center;
+	color:white;
+	background-color: cornflowerBlue;
+	margin: auto;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px; 
+	
+	font-size: 300%;
+
+
+}
+#textgiven{
+	font-family: Sans-serif;
+	color: white;
+}
+#userinput{
+	width: 80%;
+	height: 150px;
+}
+#result1{
+	color: red;
+}
+#result{
+	color: yellow;
+}
+
+body{
+	background: url(back8.jpg);
+	background-position: center; 
+  
+  background-size: cover;
+	margin: 0;
+	font-family: "Montserrat", "A venir";
+}
+
+#btn{
+	color: white;
+	background: red;
+	height: 20%
+}
+#btn:hover{
+	color:red;
+	background: white;
+}
+#Reset{
+ color:white;
+ background:lightseagreen;
+ height :20%;
+}
+#Reset:hover{
+color: lightseagreen;
+background: white;
+}
+#display{
+    	background: rgba(0,0,0,0.8);
+	color: white;
+    width: 40%;
+    font-size: 70px;
+    text-align: left;
+    margin: 0px auto;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 60%;
+
+}
+h3{
+	background: black;
+}
+
+@media (max-width: 767px) { 
+            h1 { 
+                font-size: 40px;
+
+        }
+        #display{
+        	font-size: 45px;
+        	left: 45%;
+        }
+        .main{
+        	top: 60%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	text-align: center;
+        }
+
+    }
+   
